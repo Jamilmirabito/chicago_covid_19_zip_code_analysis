@@ -55,12 +55,12 @@ Used a number of ZIP-code level econonomic and demographic variables to model th
 
 <img width="720" alt="positivity_target" src="https://user-images.githubusercontent.com/64563191/98839059-0f069400-2413-11eb-90ee-2c47ddd953ef.png">
   
-Zip codes with a high percentage of Hispanic residents and essential workers are more likely to experience an increase in positivity rates which could imply that the areas lack adequate testing. Conversely, however, areas with a higher percentage of healthcare workers are more likely to have substantially lower positivity rates - likely due to regular testing at their workplace. 
+Zip codes with a high percentage of Hispanic residents and essential workers are more likely to experience an increase in positivity rates which could imply that these areas lack adequate testing. Conversely, however, areas with a higher percentage of healthcare workers are more likely to have substantially lower positivity rates - likely due to regular testing at their workplace. 
   
  
 <img width="679" alt="testing_target" src="https://user-images.githubusercontent.com/64563191/98839060-1037c100-2413-11eb-9472-8f0ed52456f1.png">
 
-Testing, on the other hand, is focused in younger and whiter communities surrounding universities. Also important to note here is that communities with higher percentages of uninsured individuals are substantially less likely to get tested as frequently, likely resulting in higher positivity rates. Again, this data is from 2018 ACS estimates, so it’s likely the onset of the pandemic also exacerbated the percentage of uninsured individuals in most of these communities.
+Testing, on the other hand, is focused in younger and whiter communities surrounding universities (see mapping_pos_rates.ipynb). Also important to note here is that communities with higher percentages of uninsured individuals are substantially less likely to get tested as frequently, likely resulting in higher positivity rates. Again, this data is from 2018 ACS estimates, so it’s likely the onset of the pandemic also exacerbated the percentage of uninsured individuals in most of these communities.
   
 ## Time Series Analysis:
 In response to the City's tightening of restrictions, I wanted to project how the overall positivity rate would respond in the coming 2 weeks. In order to do this I created numerous models displated below, as well as nearly 20 different iterations of the SARIMAX model before settling on the best performing one (see time_series_analysis.ipynb). It should be noted that I trained each model on the full set of data from 03/01/2020 to 10/25/2020 and tested each model on a 2-week period from 10/25/2020 to 11/7/2020. 
