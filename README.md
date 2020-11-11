@@ -37,7 +37,7 @@ On October 23, the City implemented a City-wide curfew for non-essential busines
 ## ZIP Code Analysis: 
 Used a number of ZIP-code level econonomic and demographic variables to model the relatiosnhip between each respective variable and Zip Code Positivity Rate and Per-Capita Testing.
 - Model Type: Ordinary Least Squares
-  - Variables:
+- Variables:
     - Median Age
     - Median Household Income
     - Median Household Size
@@ -52,6 +52,7 @@ Used a number of ZIP-code level econonomic and demographic variables to model th
     - Distance from Testing Site
   
 **Findings:**
+
 <img width="720" alt="positivity_target" src="https://user-images.githubusercontent.com/64563191/98839059-0f069400-2413-11eb-90ee-2c47ddd953ef.png">
   
 Zip codes with a high percentage of Hispanic residents and essential workers are more likely to experience an increase in positivity rates which could imply that the areas lack adequate testing. Conversely, however, areas with a higher percentage of healthcare workers are more likely to have substantially lower positivity rates - likely due to regular testing at their workplace. 
