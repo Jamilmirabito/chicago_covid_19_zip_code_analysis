@@ -7,6 +7,7 @@
 3. **mapping_pos_rates.ipynb** - Mapping 2-week average poisitivity rates, testing per capita, and percent change in positivity rates.
 4. **zip_code_regression_analysis.ipynb** - Using OLS regression to analyze the relationship between ZIP-code-level characteristics and 2-week average positivity rate.
 5. **time_series_analysis.ipynb** - Cleaning daily case and testing data, EDA and time series modeling.
+6. **Chicago_COVID_presentation.pdf** - PDF of the presentation of findings.
 
 ## Data
 **US Census Data (API):**
